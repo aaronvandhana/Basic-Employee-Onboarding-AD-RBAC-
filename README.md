@@ -8,6 +8,7 @@
 
 ## Video Walkthrough
 https://www.loom.com/share/470d5798bfb645ceab66494db77bc4e8
+or 
 https://www.youtube.com/watch?v=3jOiM-MHWB8
 
 ## Tools Used
