@@ -1,2 +1,30 @@
-# Basic-Employee-Onboarding-AD-RBAC-
-Active Directory infrastructure rebuild for a fictional company called "Northstar Medical Group". Includes domain setup, organizational structure, user provisioning, RBAC implementation, and incident resolution.
+# Basic Employee Onboarding (AD)(RBAC)
+
+## Problem Statement
+* The problem in this project was related to a fictional company called Northstar Medical Group. Northstar Medical Group used a third-party MSP that mismanaged their Identity Lifestyle workflow. As the company's infrastructure was scalable, arrising issues of the lack of RBAC policies showed the cracks in their system that could become HIPAA violations. Northstar Medical Group needed a professional to create a new system from scratch to eliminate the issues and solve the problem in order mitigate any future security risks. 
+
+## Solution Overview
+* The solution was to build a basic employee onboarding pipeline in Active Directory.  I created the Domain Server and named it NMG.com and created Organizational Units (OU) and Security Groups to make sure when users are onboarded, they were only given access to tools ONLY relative to their role. This was to create the principle of least privilege. A simulated mock ticket was also created where a user was provisioned the incorrect level of access. The ticket was solved by reading the ticket, investigating the issue, creating a hypothesis, verified the hypothesis before applying fixes, make the correct changes, and finally verified the fix and solved all symptoms of the problem. 
+
+## Video Walkthrough
+[Add your video walkthrough link placeholder here. You will record this tomorrow and update this link so visitors can see a live demonstration of your lab environment.]
+
+## Tools Used
+* Windows Server
+* Active Directory Domain Services
+* VirtualBox
+* UTM
+* RBAC
+* GitHub
+
+## Project Timeline
+* Day 1: Domain creation and domain controller promotion
+* Day 2: Organizational unit and security group design
+* Day 3: User provisioning and RBAC implementation
+* Day 4: Incident response and resolution (NMG-0047)
+* Day 5: Documentation and case study packaging
+
+## Key Accomplishments
+* Built NMG.com domain from scratch
+* Familiarized myself with RBAC and its importance with security risks
+* Problem solved a technical issue beyond the scope of the contents of the ticket description by investigating the problem in full and resolving the root of the issue.
