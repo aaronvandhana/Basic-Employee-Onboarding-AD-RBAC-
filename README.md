@@ -7,7 +7,7 @@
 * The solution was to build a basic employee onboarding pipeline in Active Directory. I created the domain server, named it NMG.com, and built Organizational Units (OUs) and Security Groups so that users were only granted access to tools relative to their role — enforcing the principle of least privilege. To test the system, I created a simulated mock ticket where a user was provisioned the incorrect level of access. I resolved it by reading the ticket, investigating the issue, forming a hypothesis, verifying that hypothesis before applying any fixes, making the correct changes, and confirming the fix resolved all symptoms of the problem. This closed the compliance gap the MSP had left open and enforced least-privilege access across the domain.
 
 ## Video Walkthrough
-[Add your video walkthrough link placeholder here. You will record this tomorrow and update this link so visitors can see a live demonstration of your lab environment.]
+https://www.loom.com/share/470d5798bfb645ceab66494db77bc4e8
 
 ## Tools Used
 * Windows Server
